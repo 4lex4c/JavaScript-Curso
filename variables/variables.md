@@ -20,7 +20,7 @@ En JavaScript, puedes declarar variables usando `var`, `let` y `const`.
 ```javascript
 var nombre = "Alex"; // Variable con var
 let edad = "16"; // Variable con let
-const ciudad = "Buenos Aires, Capital Federal"; // Variable con const
+const ciudad = "Buenos Aires, Argentina"; // Variable con const
 ``` 
 
 ###### Buenas Prácticas
