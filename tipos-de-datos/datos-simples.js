@@ -1,13 +1,11 @@
 // Ejemplos de Tipos de Datos Simples en JavaScript
 
 // Números
-let edad = 17; 
-let currentYear = 2024;
-let memoriaRam = 8;
+const pi = 3.1415; // 3.1415 (número fraccionario)
+let edad = 17; // 17
 
-console.log(edad + ` "${typeof edad}"`); // -> 17 "number"
-console.log(currentYear + ` "${typeof currentYear}"`); // -> 2024 "number"
-console.log(memoriaRam + ` "${typeof memoriaRam}"`); // -> 8 "number"
+typeof pi === "number"; // true
+typeof edad === "number"; // true
 
 // BigInt
 const previouslyMaxSafeInteger = 9007199254740991n; // -> 9007199254740991n
@@ -17,5 +15,11 @@ const hugeString = BigInt("9007199254740991"); // -> 9007199254740991n
 typeof 1n === "bigint"; // true
 typeof BigInt("1") === "bigint"; // true
 
+// String o Cadena de Carácteres
+const nombre = "Brian";
+const country = "Jamaica";
 
+typeof nombre === "string"; // true
+typeof country === "string"; // true
 
+// ... ;v
