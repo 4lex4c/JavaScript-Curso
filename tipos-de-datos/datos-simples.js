@@ -22,4 +22,24 @@ const country = "Jamaica";
 typeof nombre === "string"; // true
 typeof country === "string"; // true
 
-// ... ;v
+// Booleano 
+const booleanExample = true; // true
+
+typeof booleanExample; // "boolean"
+
+// Undefined
+let undefined; 
+
+typeof undefined; // "undefined"
+
+// Null
+const nullExample = null;
+
+typeof nullExample; // "null"
+
+// Symbol 
+let symbolExample = Symbol("Ejemplo");
+
+typeof symbolExample; // "symbol"
+
+// Estos conforman todos los datos primitivos en Javascript
